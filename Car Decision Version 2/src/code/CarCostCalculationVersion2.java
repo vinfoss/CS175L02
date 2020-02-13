@@ -50,19 +50,19 @@ public class CarCostCalculationVersion2 {
 		double fiveyearcosthybrid = (costhybrid + (5 * gascosthybrid));
 			
 		System.out.println("Cost to own " + makeregular + " after 1 year: " 
-		+ oneyearcostregular + " for " + makehybrid + " : " + oneyearcosthybrid);
+		+ oneyearcostregular + " for " + makehybrid + ": " + oneyearcosthybrid);
 		
-		System.out.println("Cost to own " + makeregular + "after 2 years: " 
-		+ twoyearcostregular + " for " + makehybrid + " : " + twoyearcosthybrid);
+		System.out.println("Cost to own " + makeregular + " after 2 years: " 
+		+ twoyearcostregular + " for " + makehybrid + ": " + twoyearcosthybrid);
 		
 		System.out.println("Cost to own " + makeregular + " after 3 years: " 
-		+ threeyearcostregular + " for " + makehybrid + " : " + threeyearcosthybrid);
+		+ threeyearcostregular + " for " + makehybrid + ": " + threeyearcosthybrid);
 		
 		System.out.println("Cost to own " + makeregular + " after 4 years: " 
-		+ fouryearcostregular + " for " + makehybrid + " : " + fouryearcosthybrid);
+		+ fouryearcostregular + " for " + makehybrid + ": " + fouryearcosthybrid);
 		
 		System.out.println("Cost to own " + makeregular + " after 5 years: " 
-		+ fiveyearcostregular + " for " + makehybrid + " : " + fiveyearcosthybrid);
+		+ fiveyearcostregular + " for " + makehybrid + ": " + fiveyearcosthybrid);
 			
 		if (fiveyearcostregular < fiveyearcosthybrid)
 			System.out.println("The " + makeregular + " pays back after 5 years.");
