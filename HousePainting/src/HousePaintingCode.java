@@ -40,7 +40,7 @@ public static void main(String[] args) {
 	System.out.println("The square footage of the doors is: " + doorSqFt);
 	System.out.println("The square footage of the windows is: " + windowSqFt);
 	
-	double totalSqFt = (windowSqFt + doorSqFt + houseSqFt);
+	double totalSqFt = (houseSqFt - (windowSqFt + doorSqFt));
 	double totalCost = (totalSqFt * costPerSqFt);
 	
 	
