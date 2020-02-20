@@ -21,19 +21,19 @@ public class GroceryDiscount {
 		}
 		else if (cost >= 10 && cost <= 60)
 		{
-			System.out.println("You win a discount coupon of $" + df.format(0.08 * cost) + ". (8% of your purchase)");
+			System.out.println("You win a discount coupon of $" + df.format(0.08 * cost) + "0. (8% of your purchase)");
 		}
 		else if (cost > 60 && cost <= 150)
 		{
-			System.out.println("You win a discount coupon of $" + df.format(0.1 * cost) + ". (10% of your purchase)");
+			System.out.println("You win a discount coupon of $" + df.format(0.1 * cost) + "0. (10% of your purchase)");
 		}
 		else if (cost > 150 && cost <= 210)
 		{
-			System.out.println("You win a discount coupon of $" + df.format(0.12 * cost) + ". (12% of your purchase)");
+			System.out.println("You win a discount coupon of $" + df.format(0.12 * cost) + "0. (12% of your purchase)");
 		}
 		else if (cost > 210)
 		{
-			System.out.println("You win a discount coupon of $" + df.format(0.14 * cost) + ". (14% of your purchase)");
+			System.out.println("You win a discount coupon of $" + df.format(0.14 * cost) + "0. (14% of your purchase)");
 		}
 		else if (cost == 0)
 		{
